@@ -1,0 +1,56 @@
+/* General Palettes 
+<color name="green">#3cb521</color>
+<color name="darkGreen">#3CB521</color>
+<color name="darkGrey">#374455</color>
+<color name="darkerGrey">#283341</color>
+<color name="white">#ffffff</color>
+<color name="lightGrey">#e3e8f0</color>
+<color name="grey">#8695a9</color>
+<color name="red">#bc1c11</color>
+*/
+
+.faqHeader {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e072"; /* "play" icon */
+    float: right;
+    color: #3cb521 ;
+    font-size: 12px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+.panel-default>.panel-heading {
+    color: #374455;
+    background-color: #e3e8f0;
+    border-color: #e3e8f0;
+}
+
+body{
+    color: #374455;
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #8695a9;
+}

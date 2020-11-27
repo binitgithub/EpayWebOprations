@@ -1,0 +1,182 @@
+#loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    margin: -280px 0px 0px -200px;
+    background-color: transparent;
+}
+
+.infoItem {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    background-color: #00CED1;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 26%;
+}
+
+.infoItemGreen {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    background-color: #FFA07A;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 26%;
+}
+
+.infoItemBlue {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    background-color: #F4A460;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 26%;
+}
+
+#dashboardCenter {
+    text-align: center;
+}
+
+.btn-info.custom-btn {
+    background-color: #000;
+    border-color: #000;
+}
+
+body{
+	margin:5%;
+	font-family:helvetica;
+	font-size:10pt;
+	color:#333 !important;
+}
+
+.preheader{
+	font-size:0px;
+	height: 50px;
+}
+
+.preheader > div{
+	display:inline-block;
+	font-size:12pt;
+	margin-top:20px;
+}
+
+#fromDate, #toDate{
+	margin-left:10px;
+}
+
+.header{
+	text-align:right;
+	font-size:0px;
+	border-top:1px solid #f0f0f0;
+	border-bottom:1px solid #f0f0f0;
+	background:#f9f9f9;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:20px;
+}
+
+.header > div{
+	display:inline-block;
+	font-size:10pt;
+	height:30px;
+	line-height:30px;
+}
+
+.sourceInstitutionName{
+	margin-bottom:20px;
+}
+
+.totalRow > .sourceInstitutionName{
+	width:35%;
+	margin-bottom:0px;
+	text-align:left;
+}
+
+.summaryRow{
+	text-align:right;
+	font-size:0px;
+}
+
+.summaryRow:first-child > div{
+	border-top:1px solid #333;
+}
+
+.summaryRow > div{
+	display:inline-block;
+	font-size:10pt;
+	height:34px;
+	line-height:34px;
+}
+
+.transactionCount, .transactionCountSubTotal, .transactionCountGrandTotal{
+	width:25%;;
+}
+
+.transactionTotal, .transactionSubTotal, .transactionGrandTotal{
+	width:25%;
+}
+
+.billerName{
+	/*width:35%;*/
+	width:50%;
+	/*padding-left:5%;*/
+	text-align:left;
+}
+
+.lastSummaryRow{
+	marin-bottom:30px;
+}
+
+.lastSummaryRow > div{
+	border-bottom:1px solid #333;
+	font-weight:bold;
+}
+
+.totalRow{
+	font-size:0px;
+	text-align:right;
+	height:34px;
+	line-height:34px;
+}
+
+.totalRow > div{
+	display:inline-block;
+	font-size:10pt;
+}
+
+.subTotalLabel, .grandTotalLabel{
+	width:15%;
+	text-align:left;
+}
+
+.grandTotalRow > div{
+    border-bottom-width:5px;  
+	border-bottom-style:double;
+	border-color:#333;
+}
+
+.business-service {
+    display:block;
+    margin-bottom: 10px;
+}
+
+.scrollableTable {
+    height: 400px;
+    overflow-y:auto;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
